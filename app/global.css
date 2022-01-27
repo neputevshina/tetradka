@@ -1,0 +1,49 @@
+* {
+	--glittery: #aa44e6;
+	--greylike: lightblue;
+	--brand: mediumvioletred;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: "./assets/PTSans-Regular.ttf"
+}
+@font-face {
+	font-family: 'Go';
+	font-style: normal;
+	font-weight: 400;
+	src: "./assets/Go-Regular.ttf"
+}
+@font-face {
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: "./assets/PTSans-Bold.ttf"
+}
+/* @font-face {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: "./assets/PTSans-Italic.ttf"
+} */
+@font-face {
+	font-family: 'PT Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: "./assets/PTSans-BoldItalic.ttf"
+}
+
+html {
+	font-family: 'Go';
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+button {
+	border-radius: 0;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
